@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+cifar_data/
+figure1_results/**/checkpoint.pt
+figure1_results/**/worker.log
+figure1_results/**/failure.txt
+*.writing
+.DS_Store

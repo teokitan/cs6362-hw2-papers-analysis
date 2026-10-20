@@ -1,0 +1,9 @@
+# Standard packages supplied by current Colab/Kaggle GPU runtimes.
+# Install only if missing; use a matched torch/torchvision pair provided by the host.
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+Pillow>=9
+ipykernel>=6
