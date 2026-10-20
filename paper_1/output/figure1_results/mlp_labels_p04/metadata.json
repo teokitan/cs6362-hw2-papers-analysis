@@ -1,0 +1,30 @@
+{
+  "batch_size": 128,
+  "corruption": {
+    "changed_fraction": 0.35787999629974365,
+    "expected_changed_fraction": 0.36000000000000004,
+    "nominal_probability": 0.4,
+    "selected_fraction": 0.39701998233795166
+  },
+  "exp": {
+    "architecture": "mlp",
+    "corruption_probability": 0.4,
+    "input_kind": "true",
+    "name": "mlp_labels_p04"
+  },
+  "hardware": "Tesla T4",
+  "lr_epoch_multiplier": 0.95,
+  "lr_initial": 0.01,
+  "max_epochs": 200,
+  "numerical_precision": "FP32; TF32 disabled; AMP disabled",
+  "optimizer": "SGD momentum=0.9; weight_decay=0; Nesterov=false",
+  "parameters": 1209866,
+  "preprocessing": "28x28 center crop, /255, per-image standardization",
+  "random_seed": 6362,
+  "source_sha256": "2b0a330188a37bf92fd130fd97e09c6164cb841ee16cbbf081a459b722d71006",
+  "test_count": 10000,
+  "threshold": 0.99,
+  "torch_version": "2.11.0+cu128",
+  "train_count": 50000,
+  "utc_start": "2026-10-20T06:23:02.537153+00:00"
+}

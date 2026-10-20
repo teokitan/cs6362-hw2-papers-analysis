@@ -1,0 +1,13 @@
+run,architecture,p,input,status,train_accuracy,test_error,convergence_updates,completed_epochs,wall_minutes,realized_label_changes
+inception_labels_p00,inception,0.0,true,converged,0.99136,0.1612,5865,15,8.609150169566666,0.0
+inception_labels_p02,inception,0.2,true,converged,0.9969,0.3026,9384,24,13.173908978566669,0.1795799881219864
+inception_labels_p04,inception,0.4,true,converged,0.9992,0.4677,11730,30,17.103228389416667,0.35787999629974365
+inception_labels_p06,inception,0.6,true,converged,0.99428,0.6314,12903,33,18.044856592283335,0.537880003452301
+inception_labels_p08,inception,0.8,true,converged,0.99838,0.7848999999999999,14858,38,21.47277746661667,0.7206799983978271
+inception_labels_p10,inception,1.0,true,converged,0.99968,0.9018,18768,48,26.084127360783334,0.9011199474334717
+inception_shuffled_pixels,inception,0.0,shuffled_pixels,converged,0.99534,,8602,22,12.489211919583333,0.0
+inception_random_pixels,inception,0.0,random_pixels,converged,0.99226,,15249,39,22.029889820216667,0.0
+inception_gaussian,inception,0.0,gaussian,converged,0.99984,,10557,27,14.835083095483332,0.0
+mlp_labels_p00,mlp,0.0,true,converged,0.99144,0.48040000000000005,10557,27,0.22373782773333345,0.0
+mlp_labels_p04,mlp,0.4,true,converged,0.99,0.6716,19941,51,0.42022000824999944,0.35787999629974365
+mlp_labels_p10,mlp,1.0,true,converged,0.99038,0.905,31671,81,0.6651924001500001,0.9011199474334717

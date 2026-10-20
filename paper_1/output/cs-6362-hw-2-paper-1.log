@@ -1,0 +1,174 @@
+[{"stream_name":"stderr","time":7.971883574,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.971940504,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.971947286,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.97195119,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.582636612,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.582688391,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.582694642,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.582699183999999,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.184320855,"data":"Python: 3.13.15 PyTorch: 2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":18.18436033,"data":"CUDA available: True CUDA devices: 2\n"}
+,{"stream_name":"stdout","time":18.184365713,"data":"GPU 0: Tesla T4\n"}
+,{"stream_name":"stdout","time":18.184369297,"data":"GPU 1: Tesla T4\n"}
+,{"stream_name":"stdout","time":18.184373002,"data":"Artifacts: /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":18.211423866,"data":"Writing zhang_fig1_core.py\n"}
+,{"stream_name":"stdout","time":18.892793948,"data":"PASS: architecture parameter counts, forward passes, seeded fixed labels, \n"}
+,{"stream_name":"stdout","time":18.892840374,"data":"      0.9p corruption, shared/per-image permutations, whitening, 12-run grid\n"}
+,{"stream_name":"stdout","time":18.892846158,"data":"inception_labels_p00             inception  p=0.0  input=true\n"}
+,{"stream_name":"stdout","time":18.892854704,"data":"inception_labels_p02             inception  p=0.2  input=true\n"}
+,{"stream_name":"stdout","time":18.892870939,"data":"inception_labels_p04             inception  p=0.4  input=true\n"}
+,{"stream_name":"stdout","time":18.892875316,"data":"inception_labels_p06             inception  p=0.6  input=true\n"}
+,{"stream_name":"stdout","time":18.892879378,"data":"inception_labels_p08             inception  p=0.8  input=true\n"}
+,{"stream_name":"stdout","time":18.892883336,"data":"inception_labels_p10             inception  p=1.0  input=true\n"}
+,{"stream_name":"stdout","time":18.89288707,"data":"inception_shuffled_pixels        inception  p=0.0  input=shuffled_pixels\n"}
+,{"stream_name":"stdout","time":18.89289134,"data":"inception_random_pixels          inception  p=0.0  input=random_pixels\n"}
+,{"stream_name":"stdout","time":18.892895441,"data":"inception_gaussian               inception  p=0.0  input=gaussian\n"}
+,{"stream_name":"stdout","time":18.892899177,"data":"mlp_labels_p00                   mlp        p=0.0  input=true\n"}
+,{"stream_name":"stdout","time":18.892902851,"data":"mlp_labels_p04                   mlp        p=0.4  input=true\n"}
+,{"stream_name":"stdout","time":18.892906696,"data":"mlp_labels_p10                   mlp        p=1.0  input=true\n"}
+,{"stream_name":"stdout","time":18.89291015,"data":"Smoke tests passed. No training result has been generated yet.\n"}
+,{"stream_name":"stdout","time":23.348825666,"data":"Copied original CIFAR-10 Python files from /kaggle/input/datasets/teokitanovski/cifar-10/cifar-10-batches-py\n"}
+,{"stream_name":"stdout","time":30.638758821,"data":"Verified 50,000 CIFAR-10 training and 10,000 test images; network download disabled.\n"}
+,{"stream_name":"stdout","time":30.66211665,"data":"12 unique training runs | FP32 | batch=128 | target=99%\n"}
+,{"stream_name":"stdout","time":30.662148404,"data":"Guard: max 200 epochs/run and 5.75 hours total (if set)\n"}
+,{"stream_name":"stdout","time":30.662154231,"data":"  inception_labels_p00\n"}
+,{"stream_name":"stdout","time":30.662179003,"data":"  inception_labels_p02\n"}
+,{"stream_name":"stdout","time":30.662183661,"data":"  inception_labels_p04\n"}
+,{"stream_name":"stdout","time":30.662187305,"data":"  inception_labels_p06\n"}
+,{"stream_name":"stdout","time":30.662190843,"data":"  inception_labels_p08\n"}
+,{"stream_name":"stdout","time":30.662194115,"data":"  inception_labels_p10\n"}
+,{"stream_name":"stdout","time":30.662197688,"data":"  inception_shuffled_pixels\n"}
+,{"stream_name":"stdout","time":30.662201688,"data":"  inception_random_pixels\n"}
+,{"stream_name":"stdout","time":30.662205681,"data":"  inception_gaussian\n"}
+,{"stream_name":"stdout","time":30.662209716,"data":"  mlp_labels_p00\n"}
+,{"stream_name":"stdout","time":30.662213398,"data":"  mlp_labels_p04\n"}
+,{"stream_name":"stdout","time":30.662216998,"data":"  mlp_labels_p10\n"}
+,{"stream_name":"stdout","time":30.840305552,"data":"Already converged: 0/12\n"}
+,{"stream_name":"stdout","time":30.840375095,"data":"Started inception_labels_p00 on GPU 0 (PID=52)\n"}
+,{"stream_name":"stdout","time":30.840381491,"data":"Started mlp_labels_p00 on GPU 1 (PID=53)\n"}
+,{"stream_name":"stdout","time":30.840385877,"data":"Progress: 0.00h elapsed, 5.75h remaining, 10 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":55.907011393,"data":"GPU 1 finished mlp_labels_p00: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":55.907108716,"data":"Started mlp_labels_p10 on GPU 1 (PID=64)\n"}
+,{"stream_name":"stdout","time":90.915141432,"data":"Progress: 0.02h elapsed, 5.73h remaining, 9 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":105.909374496,"data":"GPU 1 finished mlp_labels_p10: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":105.909412023,"data":"Started mlp_labels_p04 on GPU 1 (PID=70)\n"}
+,{"stream_name":"stdout","time":140.918451048,"data":"GPU 1 finished mlp_labels_p04: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":140.918483833,"data":"Started inception_labels_p10 on GPU 1 (PID=76)\n"}
+,{"stream_name":"stdout","time":150.914616894,"data":"Progress: 0.03h elapsed, 5.72h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":210.922153038,"data":"Progress: 0.05h elapsed, 5.70h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":270.924118736,"data":"Progress: 0.07h elapsed, 5.68h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":330.928472156,"data":"Progress: 0.08h elapsed, 5.67h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":390.930726299,"data":"Progress: 0.10h elapsed, 5.65h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":450.932861561,"data":"Progress: 0.12h elapsed, 5.63h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":510.932433118,"data":"Progress: 0.13h elapsed, 5.62h remaining, 7 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":555.93646729,"data":"GPU 0 finished inception_labels_p00: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":555.936519428,"data":"Started inception_shuffled_pixels on GPU 0 (PID=82)\n"}
+,{"stream_name":"stdout","time":570.929853497,"data":"Progress: 0.15h elapsed, 5.60h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":630.938047023,"data":"Progress: 0.17h elapsed, 5.58h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":690.940138895,"data":"Progress: 0.18h elapsed, 5.57h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":750.944488245,"data":"Progress: 0.20h elapsed, 5.55h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":810.945904346,"data":"Progress: 0.22h elapsed, 5.53h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":870.947215509,"data":"Progress: 0.23h elapsed, 5.52h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":930.950113525,"data":"Progress: 0.25h elapsed, 5.50h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":990.953151674,"data":"Progress: 0.27h elapsed, 5.48h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1050.954443063,"data":"Progress: 0.28h elapsed, 5.47h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1110.955625532,"data":"Progress: 0.30h elapsed, 5.45h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1170.955420514,"data":"Progress: 0.32h elapsed, 5.43h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1230.959392495,"data":"Progress: 0.33h elapsed, 5.42h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1290.960617939,"data":"Progress: 0.35h elapsed, 5.40h remaining, 6 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1310.954452101,"data":"GPU 0 finished inception_shuffled_pixels: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":1310.954544001,"data":"Started inception_random_pixels on GPU 0 (PID=88)\n"}
+,{"stream_name":"stdout","time":1350.966880269,"data":"Progress: 0.37h elapsed, 5.38h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1410.96789529,"data":"Progress: 0.38h elapsed, 5.37h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1470.971228927,"data":"Progress: 0.40h elapsed, 5.35h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1530.971661321,"data":"Progress: 0.42h elapsed, 5.33h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1590.978655357,"data":"Progress: 0.43h elapsed, 5.32h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1650.977864234,"data":"Progress: 0.45h elapsed, 5.30h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1710.977927772,"data":"Progress: 0.47h elapsed, 5.28h remaining, 5 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1715.968002305,"data":"GPU 1 finished inception_labels_p10: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":1715.968043871,"data":"Started inception_gaussian on GPU 1 (PID=94)\n"}
+,{"stream_name":"stdout","time":1770.981981184,"data":"Progress: 0.48h elapsed, 5.27h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1830.98557315,"data":"Progress: 0.50h elapsed, 5.25h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1890.987001705,"data":"Progress: 0.52h elapsed, 5.23h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":1950.988191439,"data":"Progress: 0.53h elapsed, 5.22h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2010.986925532,"data":"Progress: 0.55h elapsed, 5.20h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2070.990218483,"data":"Progress: 0.57h elapsed, 5.18h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2130.998736448,"data":"Progress: 0.58h elapsed, 5.17h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2191.002644213,"data":"Progress: 0.60h elapsed, 5.15h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2251.002556116,"data":"Progress: 0.62h elapsed, 5.13h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2311.003102794,"data":"Progress: 0.63h elapsed, 5.12h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2371.006697645,"data":"Progress: 0.65h elapsed, 5.10h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2431.005895583,"data":"Progress: 0.67h elapsed, 5.08h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2491.015657379,"data":"Progress: 0.68h elapsed, 5.07h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2551.007109042,"data":"Progress: 0.70h elapsed, 5.05h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2611.009624864,"data":"Progress: 0.72h elapsed, 5.03h remaining, 4 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2615.999926094,"data":"GPU 1 finished inception_gaussian: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":2615.999966097,"data":"Started inception_labels_p02 on GPU 1 (PID=100)\n"}
+,{"stream_name":"stdout","time":2641.00379801,"data":"GPU 0 finished inception_random_pixels: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":2641.003837057,"data":"Started inception_labels_p04 on GPU 0 (PID=106)\n"}
+,{"stream_name":"stdout","time":2671.022544487,"data":"Progress: 0.73h elapsed, 5.02h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2731.020067895,"data":"Progress: 0.75h elapsed, 5.00h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2791.026306786,"data":"Progress: 0.77h elapsed, 4.98h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2851.020998151,"data":"Progress: 0.78h elapsed, 4.97h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2911.026689824,"data":"Progress: 0.80h elapsed, 4.95h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":2971.032095363,"data":"Progress: 0.82h elapsed, 4.93h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3031.032696937,"data":"Progress: 0.83h elapsed, 4.92h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3091.031540079,"data":"Progress: 0.85h elapsed, 4.90h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3151.03137799,"data":"Progress: 0.87h elapsed, 4.88h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3211.039203047,"data":"Progress: 0.88h elapsed, 4.87h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3271.0369112,"data":"Progress: 0.90h elapsed, 4.85h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3331.038336478,"data":"Progress: 0.92h elapsed, 4.83h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3391.044307786,"data":"Progress: 0.93h elapsed, 4.82h remaining, 2 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3416.029466593,"data":"GPU 1 finished inception_labels_p02: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":3416.029555358,"data":"Started inception_labels_p06 on GPU 1 (PID=112)\n"}
+,{"stream_name":"stdout","time":3451.043106324,"data":"Progress: 0.95h elapsed, 4.80h remaining, 1 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3511.049119725,"data":"Progress: 0.97h elapsed, 4.78h remaining, 1 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3571.047815326,"data":"Progress: 0.98h elapsed, 4.77h remaining, 1 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3631.047280292,"data":"Progress: 1.00h elapsed, 4.75h remaining, 1 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3676.052121927,"data":"GPU 0 finished inception_labels_p04: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":3676.052180894,"data":"Started inception_labels_p08 on GPU 0 (PID=118)\n"}
+,{"stream_name":"stdout","time":3691.042154859,"data":"Progress: 1.02h elapsed, 4.73h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3751.055284098,"data":"Progress: 1.03h elapsed, 4.72h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3811.05858529,"data":"Progress: 1.05h elapsed, 4.70h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3871.062036126,"data":"Progress: 1.07h elapsed, 4.68h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3931.064777017,"data":"Progress: 1.08h elapsed, 4.67h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":3991.066153192,"data":"Progress: 1.10h elapsed, 4.65h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4051.069958849,"data":"Progress: 1.12h elapsed, 4.63h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4111.06972561,"data":"Progress: 1.13h elapsed, 4.62h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4171.0705498,"data":"Progress: 1.15h elapsed, 4.60h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4231.070789117,"data":"Progress: 1.17h elapsed, 4.58h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4291.075146004,"data":"Progress: 1.18h elapsed, 4.57h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4351.072614777,"data":"Progress: 1.20h elapsed, 4.55h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4411.075788584,"data":"Progress: 1.22h elapsed, 4.53h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4471.076667987,"data":"Progress: 1.23h elapsed, 4.52h remaining, 0 queued, 2 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4506.073657475,"data":"GPU 1 finished inception_labels_p06: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":4531.068653618,"data":"Progress: 1.25h elapsed, 4.50h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4591.07799539,"data":"Progress: 1.27h elapsed, 4.48h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4651.086420726,"data":"Progress: 1.28h elapsed, 4.47h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4711.089080639,"data":"Progress: 1.30h elapsed, 4.45h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4771.085448535,"data":"Progress: 1.32h elapsed, 4.43h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4831.085990648,"data":"Progress: 1.33h elapsed, 4.42h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4891.089083988,"data":"Progress: 1.35h elapsed, 4.40h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4951.212521818,"data":"Progress: 1.37h elapsed, 4.38h remaining, 0 queued, 1 running | logs at /kaggle/working/figure1_results\n"}
+,{"stream_name":"stdout","time":4970.886357376,"data":"GPU 0 finished inception_labels_p08: process=0, result=converged\n"}
+,{"stream_name":"stdout","time":4970.886391013,"data":"Training scheduler finished after 1.37 hours.\n"}
+,{"stream_name":"stdout","time":4970.984048107,"data":"Converged: 12 of 12\n"}
+,{"stream_name":"stdout","time":4970.984068792,"data":"Non-converged rows remain missing from convergence plots; they are not imputed.\n"}
+,{"stream_name":"stdout","time":4972.406278284,"data":"Saved: /kaggle/working/figure1_results/figure1_reproduced.png\n"}
+,{"stream_name":"stdout","time":4972.406306261,"data":"Successful training runs: 12/12. Missing/censored values are NEVER filled in.\n"}
+,{"stream_name":"stdout","time":4972.603549025,"data":"Original figure is embedded near the notebook top; optional PNG not found in cwd.\n"}
+,{"stream_name":"stdout","time":4972.603580257,"data":"Your figure, calculated solely from worker logs:\n"}
+,{"stream_name":"stdout","time":4972.784322424,"data":"Saved audit: /kaggle/working/figure1_results/experiment_audit.csv\n"}
+,{"stream_name":"stdout","time":4972.784355983,"data":"Each value comes from the actual experimental metadata/status files.\n"}
+,{"stream_name":"stderr","time":4977.258570939,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4977.258598891,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4977.424766279,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4977.424811209,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4978.203877775,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4978.313186643,"data":"[NbConvertApp] Writing 1052467 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4980.814091682,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4981.549950189,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":4981.549978535,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":4981.550392278,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":4981.550830675,"data":"[NbConvertApp] Writing 686456 bytes to __results__.html\n"}
+]

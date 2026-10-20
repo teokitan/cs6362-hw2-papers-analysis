@@ -1,0 +1,41 @@
+
+=== worker launch: /usr/bin/python3 -u /kaggle/working/zhang_fig1_core.py --experiment inception_labels_p08 --data-root /kaggle/working/cifar_data --results-root /kaggle/working/figure1_results --batch-size 128 --max-epochs 200 --accuracy 0.99 --eval-batch-size 512 --loss-log-every 20 --checkpoint-every 1 --deadline-unix 1792498003.305782 ===
+inception_labels_p08 epoch=0001 updates=0000391 train_acc=0.10502 mean_loss=2.30520 epoch_s=39.0
+inception_labels_p08 epoch=0002 updates=0000782 train_acc=0.13134 mean_loss=2.28491 epoch_s=33.3
+inception_labels_p08 epoch=0003 updates=0001173 train_acc=0.13790 mean_loss=2.27932 epoch_s=33.4
+inception_labels_p08 epoch=0004 updates=0001564 train_acc=0.13214 mean_loss=2.27352 epoch_s=33.4
+inception_labels_p08 epoch=0005 updates=0001955 train_acc=0.15784 mean_loss=2.26748 epoch_s=33.5
+inception_labels_p08 epoch=0006 updates=0002346 train_acc=0.15612 mean_loss=2.26194 epoch_s=33.5
+inception_labels_p08 epoch=0007 updates=0002737 train_acc=0.15984 mean_loss=2.25604 epoch_s=33.5
+inception_labels_p08 epoch=0008 updates=0003128 train_acc=0.18982 mean_loss=2.24979 epoch_s=33.6
+inception_labels_p08 epoch=0009 updates=0003519 train_acc=0.19372 mean_loss=2.24203 epoch_s=33.6
+inception_labels_p08 epoch=0010 updates=0003910 train_acc=0.18292 mean_loss=2.23465 epoch_s=33.6
+inception_labels_p08 epoch=0011 updates=0004301 train_acc=0.17226 mean_loss=2.22838 epoch_s=33.6
+inception_labels_p08 epoch=0012 updates=0004692 train_acc=0.18270 mean_loss=2.21792 epoch_s=33.6
+inception_labels_p08 epoch=0013 updates=0005083 train_acc=0.20412 mean_loss=2.20693 epoch_s=33.7
+inception_labels_p08 epoch=0014 updates=0005474 train_acc=0.18928 mean_loss=2.19338 epoch_s=33.6
+inception_labels_p08 epoch=0015 updates=0005865 train_acc=0.20878 mean_loss=2.17578 epoch_s=33.6
+inception_labels_p08 epoch=0016 updates=0006256 train_acc=0.14936 mean_loss=2.15211 epoch_s=33.6
+inception_labels_p08 epoch=0017 updates=0006647 train_acc=0.17834 mean_loss=2.12299 epoch_s=33.7
+inception_labels_p08 epoch=0018 updates=0007038 train_acc=0.20806 mean_loss=2.08580 epoch_s=33.7
+inception_labels_p08 epoch=0019 updates=0007429 train_acc=0.16032 mean_loss=2.03737 epoch_s=33.7
+inception_labels_p08 epoch=0020 updates=0007820 train_acc=0.22526 mean_loss=1.97467 epoch_s=33.7
+inception_labels_p08 epoch=0021 updates=0008211 train_acc=0.18442 mean_loss=1.89129 epoch_s=33.6
+inception_labels_p08 epoch=0022 updates=0008602 train_acc=0.20718 mean_loss=1.79156 epoch_s=33.7
+inception_labels_p08 epoch=0023 updates=0008993 train_acc=0.21164 mean_loss=1.67291 epoch_s=33.6
+inception_labels_p08 epoch=0024 updates=0009384 train_acc=0.24846 mean_loss=1.53258 epoch_s=33.7
+inception_labels_p08 epoch=0025 updates=0009775 train_acc=0.21422 mean_loss=1.37728 epoch_s=33.7
+inception_labels_p08 epoch=0026 updates=0010166 train_acc=0.33524 mean_loss=1.21052 epoch_s=34.2
+inception_labels_p08 epoch=0027 updates=0010557 train_acc=0.15328 mean_loss=1.05601 epoch_s=33.9
+inception_labels_p08 epoch=0028 updates=0010948 train_acc=0.28740 mean_loss=0.88901 epoch_s=33.7
+inception_labels_p08 epoch=0029 updates=0011339 train_acc=0.41208 mean_loss=0.73700 epoch_s=33.8
+inception_labels_p08 epoch=0030 updates=0011730 train_acc=0.55878 mean_loss=0.57271 epoch_s=33.8
+inception_labels_p08 epoch=0031 updates=0012121 train_acc=0.28880 mean_loss=0.44314 epoch_s=33.8
+inception_labels_p08 epoch=0032 updates=0012512 train_acc=0.61460 mean_loss=0.33357 epoch_s=33.8
+inception_labels_p08 epoch=0033 updates=0012903 train_acc=0.68026 mean_loss=0.25093 epoch_s=33.8
+inception_labels_p08 epoch=0034 updates=0013294 train_acc=0.63150 mean_loss=0.17439 epoch_s=33.8
+inception_labels_p08 epoch=0035 updates=0013685 train_acc=0.84970 mean_loss=0.09630 epoch_s=33.7
+inception_labels_p08 epoch=0036 updates=0014076 train_acc=0.88482 mean_loss=0.04841 epoch_s=33.7
+inception_labels_p08 epoch=0037 updates=0014467 train_acc=0.93450 mean_loss=0.01942 epoch_s=33.7
+inception_labels_p08 epoch=0038 updates=0014858 train_acc=0.99838 mean_loss=0.00696 epoch_s=33.7
+FINISHED inception_labels_p08: status=converged  {'exp': {'name': 'inception_labels_p08', 'architecture': 'inception', 'corruption_probability': 0.8, 'input_kind': 'true'}, 'status': 'converged', 'converged': True, 'convergence_updates': 14858, 'convergence_epochs': 38, 'latest_complete_epoch': 38, 'latest_train_accuracy': 0.99838, 'latest_train_correct': 49919, 'test_accuracy': 0.2151, 'test_error': 0.7848999999999999, 'target_train_error': 0.0016199999999999548, 'elapsed_seconds_total': 1288.3666479970002, 'updates_at_finish': 14858, 'partial_epoch_not_checkpointed': False, 'corruption': {'nominal_probability': 0.8, 'selected_fraction': 0.7999199628829956, 'changed_fraction': 0.7206799983978271, 'expected_changed_fraction': 0.7200000000000001}, 'evaluated_in_eval_mode': True, 'utc_finish': '2026-10-20T07:44:01.129817+00:00'}

@@ -1,0 +1,30 @@
+{
+  "batch_size": 128,
+  "corruption": {
+    "changed_fraction": 0.0,
+    "expected_changed_fraction": 0.0,
+    "nominal_probability": 0.0,
+    "selected_fraction": 0.0
+  },
+  "exp": {
+    "architecture": "inception",
+    "corruption_probability": 0.0,
+    "input_kind": "random_pixels",
+    "name": "inception_random_pixels"
+  },
+  "hardware": "Tesla T4",
+  "lr_epoch_multiplier": 0.95,
+  "lr_initial": 0.1,
+  "max_epochs": 200,
+  "numerical_precision": "FP32; TF32 disabled; AMP disabled",
+  "optimizer": "SGD momentum=0.9; weight_decay=0; Nesterov=false",
+  "parameters": 1649402,
+  "preprocessing": "28x28 center crop, /255, per-image standardization",
+  "random_seed": 6362,
+  "source_sha256": "2b0a330188a37bf92fd130fd97e09c6164cb841ee16cbbf081a459b722d71006",
+  "test_count": 10000,
+  "threshold": 0.99,
+  "torch_version": "2.11.0+cu128",
+  "train_count": 50000,
+  "utc_start": "2026-10-20T06:43:07.685561+00:00"
+}

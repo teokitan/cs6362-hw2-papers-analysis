@@ -1,0 +1,29 @@
+{
+  "converged": true,
+  "convergence_epochs": 33,
+  "convergence_updates": 12903,
+  "corruption": {
+    "changed_fraction": 0.537880003452301,
+    "expected_changed_fraction": 0.54,
+    "nominal_probability": 0.6,
+    "selected_fraction": 0.5966799855232239
+  },
+  "elapsed_seconds_total": 1082.691395537,
+  "evaluated_in_eval_mode": true,
+  "exp": {
+    "architecture": "inception",
+    "corruption_probability": 0.6,
+    "input_kind": "true",
+    "name": "inception_labels_p06"
+  },
+  "latest_complete_epoch": 33,
+  "latest_train_accuracy": 0.99428,
+  "latest_train_correct": 49714,
+  "partial_epoch_not_checkpointed": false,
+  "status": "converged",
+  "target_train_error": 0.005719999999999947,
+  "test_accuracy": 0.3686,
+  "test_error": 0.6314,
+  "updates_at_finish": 12903,
+  "utc_finish": "2026-10-20T07:36:15.369681+00:00"
+}

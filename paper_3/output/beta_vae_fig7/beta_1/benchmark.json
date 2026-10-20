@@ -1,0 +1,7 @@
+{
+  "beta": 1.0,
+  "seconds_per_step": 0.006261768500010589,
+  "estimated_train_hours": 0.4007531840006777,
+  "cache_mode": "gpu_uint8",
+  "steps_measured": 20
+}

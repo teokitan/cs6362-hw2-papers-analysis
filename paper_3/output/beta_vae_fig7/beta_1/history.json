@@ -1,0 +1,322 @@
+[
+  {
+    "epoch": 1,
+    "objective": 154.08913906680212,
+    "reconstruction_bce": 133.51613261037403,
+    "kl": 20.573006481574783,
+    "epoch_seconds": 37.86282587699998,
+    "beta": 1.0
+  },
+  {
+    "epoch": 2,
+    "objective": 99.50385305749046,
+    "reconstruction_bce": 83.23640724023183,
+    "kl": 16.26744576742252,
+    "epoch_seconds": 37.98683059799998,
+    "beta": 1.0
+  },
+  {
+    "epoch": 3,
+    "objective": 89.64526684416666,
+    "reconstruction_bce": 72.97323320309322,
+    "kl": 16.672033624351023,
+    "epoch_seconds": 37.991527459,
+    "beta": 1.0
+  },
+  {
+    "epoch": 4,
+    "objective": 85.07991920047336,
+    "reconstruction_bce": 68.17755515310499,
+    "kl": 16.902364163266288,
+    "epoch_seconds": 38.39023424300001,
+    "beta": 1.0
+  },
+  {
+    "epoch": 5,
+    "objective": 82.41697700156107,
+    "reconstruction_bce": 65.35704677568542,
+    "kl": 17.059930190443993,
+    "epoch_seconds": 38.35761644400003,
+    "beta": 1.0
+  },
+  {
+    "epoch": 6,
+    "objective": 80.62634959088432,
+    "reconstruction_bce": 63.46103712982602,
+    "kl": 17.165312500463592,
+    "epoch_seconds": 38.42842199199998,
+    "beta": 1.0
+  },
+  {
+    "epoch": 7,
+    "objective": 79.1690358625518,
+    "reconstruction_bce": 61.92595127556059,
+    "kl": 17.243084487981267,
+    "epoch_seconds": 38.549337036,
+    "beta": 1.0
+  },
+  {
+    "epoch": 8,
+    "objective": 77.9005157298512,
+    "reconstruction_bce": 60.584681101640065,
+    "kl": 17.31583461198542,
+    "epoch_seconds": 38.234870031000014,
+    "beta": 1.0
+  },
+  {
+    "epoch": 9,
+    "objective": 76.74959573083454,
+    "reconstruction_bce": 59.36664296984672,
+    "kl": 17.38295277390215,
+    "epoch_seconds": 38.288211827000055,
+    "beta": 1.0
+  },
+  {
+    "epoch": 10,
+    "objective": 75.67570447391934,
+    "reconstruction_bce": 58.231840631034636,
+    "kl": 17.443863801492586,
+    "epoch_seconds": 38.334250403000055,
+    "beta": 1.0
+  },
+  {
+    "epoch": 11,
+    "objective": 74.65300917360517,
+    "reconstruction_bce": 57.15499430298805,
+    "kl": 17.49801487425963,
+    "epoch_seconds": 38.431128178999984,
+    "beta": 1.0
+  },
+  {
+    "epoch": 12,
+    "objective": 73.67819735606511,
+    "reconstruction_bce": 56.13062486251195,
+    "kl": 17.54757245812151,
+    "epoch_seconds": 38.31538926400003,
+    "beta": 1.0
+  },
+  {
+    "epoch": 13,
+    "objective": 72.74249012602701,
+    "reconstruction_bce": 55.14521135224236,
+    "kl": 17.59727872709433,
+    "epoch_seconds": 38.43151973900001,
+    "beta": 1.0
+  },
+  {
+    "epoch": 14,
+    "objective": 71.84315804905361,
+    "reconstruction_bce": 54.190405789348816,
+    "kl": 17.652752263678444,
+    "epoch_seconds": 38.422309667000036,
+    "beta": 1.0
+  },
+  {
+    "epoch": 15,
+    "objective": 70.96831859681342,
+    "reconstruction_bce": 53.28113329543008,
+    "kl": 17.6871853288677,
+    "epoch_seconds": 38.36358776399993,
+    "beta": 1.0
+  },
+  {
+    "epoch": 16,
+    "objective": 70.15774949126774,
+    "reconstruction_bce": 52.41281815899743,
+    "kl": 17.74493119650417,
+    "epoch_seconds": 38.384060653999995,
+    "beta": 1.0
+  },
+  {
+    "epoch": 17,
+    "objective": 69.37554635140631,
+    "reconstruction_bce": 51.58596356047524,
+    "kl": 17.78958275483714,
+    "epoch_seconds": 38.45164852999994,
+    "beta": 1.0
+  },
+  {
+    "epoch": 18,
+    "objective": 68.64113114145067,
+    "reconstruction_bce": 50.806810495588515,
+    "kl": 17.834320610761644,
+    "epoch_seconds": 38.33904581699994,
+    "beta": 1.0
+  },
+  {
+    "epoch": 19,
+    "objective": 67.95222306582663,
+    "reconstruction_bce": 50.07169607612822,
+    "kl": 17.880527020163008,
+    "epoch_seconds": 38.29285631699997,
+    "beta": 1.0
+  },
+  {
+    "epoch": 20,
+    "objective": 67.29333363771438,
+    "reconstruction_bce": 49.373624031411275,
+    "kl": 17.919709602329466,
+    "epoch_seconds": 38.29184512699999,
+    "beta": 1.0
+  },
+  {
+    "epoch": 21,
+    "objective": 66.67975813481543,
+    "reconstruction_bce": 48.71825742324193,
+    "kl": 17.96150080528524,
+    "epoch_seconds": 38.41713603799997,
+    "beta": 1.0
+  },
+  {
+    "epoch": 22,
+    "objective": 66.09324501686626,
+    "reconstruction_bce": 48.090814150704276,
+    "kl": 18.002430844638084,
+    "epoch_seconds": 38.248506679,
+    "beta": 1.0
+  },
+  {
+    "epoch": 23,
+    "objective": 65.53717873493831,
+    "reconstruction_bce": 47.494593011670645,
+    "kl": 18.042585744460425,
+    "epoch_seconds": 38.44624487099986,
+    "beta": 1.0
+  },
+  {
+    "epoch": 24,
+    "objective": 65.00289324323336,
+    "reconstruction_bce": 46.92299441297849,
+    "kl": 18.07989882098304,
+    "epoch_seconds": 38.46252040600007,
+    "beta": 1.0
+  },
+  {
+    "epoch": 25,
+    "objective": 64.50139373209741,
+    "reconstruction_bce": 46.38116583956612,
+    "kl": 18.120227941870688,
+    "epoch_seconds": 38.40006245399991,
+    "beta": 1.0
+  },
+  {
+    "epoch": 26,
+    "objective": 64.01722233096758,
+    "reconstruction_bce": 45.860719767544005,
+    "kl": 18.15650259455045,
+    "epoch_seconds": 38.489408552999976,
+    "beta": 1.0
+  },
+  {
+    "epoch": 27,
+    "objective": 63.561150970723894,
+    "reconstruction_bce": 45.36433367000686,
+    "kl": 18.19681732588344,
+    "epoch_seconds": 38.30054784800018,
+    "beta": 1.0
+  },
+  {
+    "epoch": 28,
+    "objective": 63.11688556406233,
+    "reconstruction_bce": 44.88850294086668,
+    "kl": 18.228382637434535,
+    "epoch_seconds": 38.48621829600006,
+    "beta": 1.0
+  },
+  {
+    "epoch": 29,
+    "objective": 62.689687759346434,
+    "reconstruction_bce": 44.42839649650786,
+    "kl": 18.261291242970362,
+    "epoch_seconds": 38.49058878000005,
+    "beta": 1.0
+  },
+  {
+    "epoch": 30,
+    "objective": 62.28505607843399,
+    "reconstruction_bce": 43.987536837657295,
+    "kl": 18.29751922223303,
+    "epoch_seconds": 38.483858088999796,
+    "beta": 1.0
+  },
+  {
+    "epoch": 31,
+    "objective": 61.89322291215261,
+    "reconstruction_bce": 43.5635624660386,
+    "kl": 18.329660462670855,
+    "epoch_seconds": 38.46358467699997,
+    "beta": 1.0
+  },
+  {
+    "epoch": 32,
+    "objective": 61.51159459153811,
+    "reconstruction_bce": 43.14824929369821,
+    "kl": 18.363345262408256,
+    "epoch_seconds": 38.41720545499993,
+    "beta": 1.0
+  },
+  {
+    "epoch": 33,
+    "objective": 61.13744394050704,
+    "reconstruction_bce": 42.749443824423686,
+    "kl": 18.388000148865913,
+    "epoch_seconds": 38.33178761399995,
+    "beta": 1.0
+  },
+  {
+    "epoch": 34,
+    "objective": 60.78439333438873,
+    "reconstruction_bce": 42.36504000027974,
+    "kl": 18.419353360268804,
+    "epoch_seconds": 38.440478901999995,
+    "beta": 1.0
+  },
+  {
+    "epoch": 35,
+    "objective": 60.44194662107362,
+    "reconstruction_bce": 41.99261264204979,
+    "kl": 18.44933400121,
+    "epoch_seconds": 38.35946430299987,
+    "beta": 1.0
+  },
+  {
+    "epoch": 36,
+    "objective": 60.106958631012176,
+    "reconstruction_bce": 41.62753436631627,
+    "kl": 18.479424241516327,
+    "epoch_seconds": 38.30525542800001,
+    "beta": 1.0
+  },
+  {
+    "epoch": 37,
+    "objective": 59.78399706350432,
+    "reconstruction_bce": 41.276795910464394,
+    "kl": 18.507201178206337,
+    "epoch_seconds": 38.36308595200012,
+    "beta": 1.0
+  },
+  {
+    "epoch": 38,
+    "objective": 59.47747780217065,
+    "reconstruction_bce": 40.940224814414975,
+    "kl": 18.537253062261474,
+    "epoch_seconds": 38.52058251900007,
+    "beta": 1.0
+  },
+  {
+    "epoch": 39,
+    "objective": 59.17282998826769,
+    "reconstruction_bce": 40.60814448793729,
+    "kl": 18.564685524172255,
+    "epoch_seconds": 38.3356362200002,
+    "beta": 1.0
+  },
+  {
+    "epoch": 40,
+    "objective": 58.87844275832176,
+    "reconstruction_bce": 40.28662714097235,
+    "kl": 18.59181557926867,
+    "epoch_seconds": 38.450446061999855,
+    "beta": 1.0
+  }
+]
